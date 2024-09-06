@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9bdbd;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.main, .about-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.gallery img:hover {
+    border-color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c4eed0;
+    color: #333;
+}
+
+.about-us {
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+
+.escudo, .logo-carrera {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.link-instituto {
+    color: #00f;
+    text-decoration: none;
+}
+
+.link-instituto:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.image-container p {
+    margin-top: 5px;
+}
+.img:hover{
+    border: 6px solid yellowgreen;
+    width: 25%;
+    height: auto;
+}
